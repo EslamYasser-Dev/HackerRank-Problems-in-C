@@ -3,13 +3,6 @@
 
 int main()
 {
-    #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
-
-int main()
-{
 
 //Declartion
 int v,w;
@@ -28,5 +21,4 @@ scanf("%d %d %f %f" ,&v,&w,&x,&y);
 printf("%d %d \n%2.1f %2.1f",v,w, x, y);
 
     return 0;
-}
 }
