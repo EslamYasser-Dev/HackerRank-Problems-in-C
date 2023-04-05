@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1680725633 source:/home/eslam/Templates/C_Projects/HackerRank Problems in C/Printing Pattern Using Loops/main.c
+	<stdio.h>
+	<string.h>
+	<math.h>
+	<stdlib.h>
+
