@@ -16,8 +16,7 @@ int main()
         for(int j = 1; j<n*2; j++)
         {
             int x = i, y = j;  //know where we are
-            if(x>n) x = n*2-x; // based on where we are(which round in vertical an horzontal loop)
-                                //in the block calculate the value of x,y
+            if(x>n) x = n*2-x; // based on where we are(which round in vertical an horzontal loop) in the block calculate the value of x,y
             if(y>n) y = n*2-y;
             x = (x<y)? x:y;
             printf("%d ",n-x+1);
