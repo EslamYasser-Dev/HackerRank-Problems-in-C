@@ -4,6 +4,9 @@
 void update(int *a,int *b) {
      *a += *b; // a = a + b;
      *b -= *a-*b; // b = a-2b
+     if (*b < 0) {   // force positive
+         (*b) *= (-1);
+     }
 
     }
 
